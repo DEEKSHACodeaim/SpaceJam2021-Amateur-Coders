@@ -48,7 +48,7 @@ def disease_check():
 
         if count>=4:
             flag=1
-            print('Patient has been affected with CORONA! ')
+            print('Patient has been diagnosed with CORONA.')
             print('Medications:\n Hot water gargling\n Isolation\n Steam inhalation')
             exit()
 
@@ -74,7 +74,7 @@ def disease_check():
 
         if count>=3:
             flag=1
-            print('Patient has been affected with PNEUMONIA! ')
+            print('Patient has been diagnosed with PNEUMONIA.')
             print('Medications:\n Fluoroquinones\n Tetracyclines\n Antibiotics ')
             exit()
 
@@ -96,7 +96,7 @@ def disease_check():
 
             if count >= 3:
                    flag=1
-                   print('You have been diagnosed with TYPHOID')
+                   print('Patient has been diagnosed with TYPHOID.')
                    print('Medications :\n Maintain fluid diet\n Anti-Biotics\n Penicillin')
                    exit()
 
@@ -117,7 +117,7 @@ def disease_check():
 
         if count>=3:
             flag=1
-            print('Patient has been affected with ANGINA PECTORIS! ')
+            print('Patient has been diagnosed with ANGINA PECTORIS.')
             print('Medications:\n Anticoagulants\n Antianginal\n Regular physical exercise\n Quit smoking')
             exit()
 
@@ -135,8 +135,8 @@ def disease_check():
                       continue
              if count>=2:
                       flag=1
-                      print("Patient has been affected with CONJUNCTIVITIS!")
-                      print("Medications:\n Lubricant eye drops \n wash hands regularly \n remove contact lenses")
+                      print("Patient has been diagnosed with CONJUNCTIVITIS.")
+                      print("Medications:\n Lubricant eye drops \n Wash hands regularly \n Remove contact lenses")
                       exit()
 
     def diabetes():
@@ -157,8 +157,8 @@ def disease_check():
             s_level=float(input('Enter blood sugar level before meal')) 
             if s_level<80 or s_level>130: 
                    flag=1
-                   print('Patient has been affected with DIABETES! ')
-                   print('Medications:\n Insulin\n Regular exercising\n Maintaing diet ')
+                   print('Patient has been diagnosed with DIABETES.')
+                   print('Medications:\n Insulin\n Regular exercising\n Maintaining diet ')
                    exit()
 
 
@@ -174,7 +174,7 @@ def disease_check():
                       continue
              if count>=1:
                         flag=1
-                        print("Patient has been affected with ALLERGIC RHINITIS")
+                        print("Patient has been diagnosed with ALLERGIC RHINITIS.")
                         print("Medications:\n Antihistamines \n corticosteroid nasal spray:")
                         exit()
     
