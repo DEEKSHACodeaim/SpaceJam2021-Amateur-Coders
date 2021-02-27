@@ -13,5 +13,5 @@ def typhoid():
             count += 1
 
     if count >= 3:
-        print('You have been diagnosed with TYPHOID')
+        print('Patient has been diagnosed with TYPHOID')
         print('Medications :\n Maintain fluid diet\n Anti-Biotics\n Penicillin')
