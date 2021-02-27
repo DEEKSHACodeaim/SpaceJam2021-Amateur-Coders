@@ -38,7 +38,7 @@ bt1 = Button(win, text = 'Click Here', bg = 'white', fg = 'black', command = onc
 bt1.pack()
 txt1 = Entry(win, width = 100)
 txt1.pack()
-txt1.insert(30,'Enter the numbers assigned to your symptoms: ')
+txt1.insert(0,'Enter the numbers assigned to your symptoms: ')
 win.mainloop()
 
 
