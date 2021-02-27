@@ -84,7 +84,7 @@ def disease_check():
             count = 0
             for i in symp:
                 if i == '3':
-                     temp = float(input('Enter your body temperature:  '))
+                     temp = float(input('Enter your body temperature in Fahrenheit:  '))
                      if temp>=99:
                           count += 1
                 if i == '4':
@@ -154,7 +154,7 @@ def disease_check():
                 continue
             
         if count>=3:
-            s_level=float(input('Enter blood sugar level before meal')) 
+            s_level=float(input('Enter blood sugar level before meal: ')) 
             if s_level<80 or s_level>130: 
                    flag=1
                    print('Patient has been diagnosed with DIABETES.')
