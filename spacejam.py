@@ -163,7 +163,7 @@ def disease_check():
 
 
 
-    def AllergicRhinitis():
+    def allergic_rhinitis():
              count=0
              for i in symp:
                   if i=='7':
@@ -184,7 +184,7 @@ def disease_check():
     typhoid()
     angina_pectoris()
     conjunctivitis()
-    AllergicRhinitis()
+    allergic_rhinitis()
     
 
     if flag==0:
